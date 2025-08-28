@@ -30,7 +30,7 @@ const symbol1 = Symbol("description 1")
 
 console.log(symbol1, typeof symbol1)
 
-// 
+// primer 
 
 
 
