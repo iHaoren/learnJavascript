@@ -1,3 +1,5 @@
+/*Tipe data Primitif
+
 // String
 const firstName = "Ibnu";
 const lastName = `${firstName} Harun`;
@@ -30,10 +32,29 @@ const symbol1 = Symbol("description 1")
 
 console.log(symbol1, typeof symbol1)
 
-// primer 
+// BigInt
+const bigInt1 = 979866968888888888665n
+
+console.log(bigInt1, typeof bigInt1)
+*/
 
 
+/*Tipe data refference*/
 
-const output = symbol1
+// Object
+const orang = {
+    nama: "Ibnu",
+    umur: 19,
+}
+console.log(orang, typeof orang)
 
-console.log(output, typeof output)
+// Array
+const hobby = ["Bersepeda", "Menonton film"]
+
+console.log(hobby, typeof hobby)
+
+// Function
+function sayHello(){
+    return "Hello Ibnu"
+}
+console.log(sayHello, typeof sayHello)
