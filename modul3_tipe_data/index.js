@@ -58,3 +58,21 @@ function sayHello(){
     return "Hello Ibnu"
 }
 console.log(sayHello, typeof sayHello)
+
+/* Perbedaan tipe data primitive dan reference */
+
+// Tipe data primitif
+
+let a = 10
+let b = a
+
+a = 20
+
+console.log(b) // output : 10
+
+// Tipe data reference
+
+let me1 = {nama: "ibnu"} //me2 akan menyimpan referensi yang sama dengan me1
+let me2 = me1
+
+console.log(me2)
